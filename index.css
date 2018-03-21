@@ -1,0 +1,18 @@
+.content {
+    font-family: 'Catamaran', sans-serif;
+    text-align: center;
+}
+
+.links {
+    width: 5.2em;
+    height: 5.2em;
+    border: 1px solid black;
+    padding: 25px;
+
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+
+    font-size: 2em
+}
