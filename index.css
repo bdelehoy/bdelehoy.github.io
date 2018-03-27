@@ -1,18 +1,59 @@
-.content {
+body {
+    background-color: #e6e6e6;
     font-family: 'Catamaran', sans-serif;
     text-align: center;
+
+    -webkit-touch-callout:  none;
+       -webkit-user-select: none;
+        -khtml-user-select: none;
+          -moz-user-select: none;
+           -ms-user-select: none;
+               user-select: none
 }
 
-.links {
-    width: 5.2em;
-    height: 5.2em;
-    border: 1px solid black;
-    padding: 25px;
+a {
+    text-decoration: none;
+    list-style-type: none
+}
 
+ul {
+    list-style-type: none
+}
+
+.head {
+    /*border: 0.3vh solid red;*/
+
+    /* top-ish of the viewport */
     position: absolute;
     left: 0;
     right: 0;
-    margin: auto;
+    top: 10%;
+    bottom: 70%;
+    margin: auto
+}
 
-    font-size: 2em
+.name {
+    font-size: 7vh;
+    font-weight: 800;
+}
+
+.about {
+    font-size: 3.5vh;
+}
+
+.links {
+    font-size: 3.5vh;
+
+    width: 20vh;
+    height: 25vh;
+    border: 0.3vh solid black;
+    padding: 3vh;
+
+    /* absolute center of viewport */
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto
 }
