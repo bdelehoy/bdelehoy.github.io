@@ -22,9 +22,15 @@ body {
 
 #name {
     text-align: center;
-    padding: 3vh;
     font-size: 7vh;
-    font-weight: 800
+    font-weight: 800;
+
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 10%;
+    margin: auto
+
 }
 
 .content {
@@ -35,7 +41,7 @@ body {
     position: absolute;
     left: 0;
     right: 0;
-    top: 20%;
+    top: 23%;
     margin: auto
 }
 
