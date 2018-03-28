@@ -2,6 +2,7 @@ body {
     background-color: #e6e6e6;
     font-family: 'Catamaran', sans-serif;
     text-align: center;
+    white-space: nowrap;
 
     -webkit-touch-callout:  none;
        -webkit-user-select: none;
@@ -37,7 +38,7 @@ ul {
     font-weight: 800;
 }
 
-.about {
+.caption {
     font-size: 3.5vh;
 }
 
@@ -45,8 +46,8 @@ ul {
     font-size: 3.5vh;
 
     width: 20vh;
-    height: 25vh;
-    border: 0.3vh solid black;
+    height: 23vh;
+    border: 0.5vh solid black;
     padding: 3vh;
 
     /* absolute center of viewport */
@@ -55,5 +56,17 @@ ul {
     right: 0;
     top: 0;
     bottom: 0;
+    margin: auto
+}
+
+.about {
+    font-size: 3vh;
+
+    /* bottom-ish of the viewport */
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 68%;
+    bottom: 12%;
     margin: auto
 }
