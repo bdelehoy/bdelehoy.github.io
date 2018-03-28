@@ -21,11 +21,10 @@ ul {
     list-style-type: none
 }
 
-.head {
-    /*border: 0.3vh solid rgb(255, 19, 235);*/
+#name {
+    font-size: 7vh;
+    font-weight: 800;
 
-    padding: 3vh;
-    /* top-ish of the viewport */
     position: absolute;
     left: 0;
     right: 0;
@@ -33,13 +32,14 @@ ul {
     margin: auto
 }
 
-#name {
-    font-size: 7vh;
-    font-weight: 800;
-}
-
 #caption {
     font-size: 3.5vh;
+
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 23%;
+    margin: auto
 }
 
 .links {
