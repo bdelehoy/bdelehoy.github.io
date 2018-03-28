@@ -22,56 +22,44 @@ ul {
 }
 
 .head {
-    /*border: 0.3vh solid red;*/
+    /*border: 0.3vh solid rgb(255, 19, 235);*/
 
+    padding: 3vh;
     /* top-ish of the viewport */
     position: absolute;
     left: 0;
     right: 0;
     top: 10%;
-    bottom: 70%;
     margin: auto
 }
 
-.name {
+#name {
     font-size: 7vh;
     font-weight: 800;
 }
 
-.caption {
+#caption {
     font-size: 3.5vh;
 }
 
 .links {
     font-size: 3.5vh;
 
-    width: 20vh;
-    height: 23vh;
     border: 0.5vh solid black;
+    width: 20vh;
+    height: 30vh;
     padding: 3vh;
 
-    /* absolute center of viewport */
+    /* bottom-mid-ish of viewport */
     position: absolute;
     left: 0;
     right: 0;
-    top: 0;
-    bottom: 0;
+    top: 35%;
     margin: auto
 }
 
-.about {
-    font-size: 3vh;
-
-    width: 10vh;
-    height: 5vh;
-    border: 0.5vh solid black;
-    padding: 0.5vh;
-
-    /* bottom-ish of the viewport */
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 68%;
-    bottom: 12%;
-    margin: auto
+#about {
+    /*border: 0.3vh solid red;*/
+    font-size: 3.5vh;
+    font-weight: 700
 }
