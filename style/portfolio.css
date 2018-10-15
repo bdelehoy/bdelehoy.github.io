@@ -1,0 +1,82 @@
+html {
+    background-color: #e6e6e6;
+	/*overflow: hidden;*/
+}
+
+body {
+    font-family: 'Catamaran', sans-serif;
+
+    -webkit-touch-callout:  none;
+       -webkit-user-select: none;
+        -khtml-user-select: none;
+          -moz-user-select: none;
+           -ms-user-select: none;
+               user-select: none
+}
+
+a {
+    /* links */
+    text-decoration: none;
+    list-style-type: none
+}
+
+h1 {
+    /* name */
+    text-align: center;
+    font-size: 4em;
+    margin-bottom: -1%
+}
+
+.content {
+    width: 50em;
+    margin-left: auto;
+    margin-right: auto;
+
+    text-align: center;
+	justify-content: center;
+	align-items: center;
+    align-content: center;
+}
+
+h3 {
+    /* column heads */
+    text-decoration: underline;
+    font-size: 3em;
+    font-weight: 800;
+}
+
+img {
+    margin-top: 4%
+}
+
+h4 {
+    /* title */
+    font-size: 2.5em;
+    font-weight: 800;
+
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+h5 {
+    /* years active */
+    font-size: 2em;
+    font-weight: 800;
+    color: #717171;
+
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+p {
+    /* description */
+    font-size: 2em;
+    
+    margin-top: 0;
+    margin-bottom: 4%;
+}
+
+#back {
+    text-align: center;
+    font-weight: 700;
+}
