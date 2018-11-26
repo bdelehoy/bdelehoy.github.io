@@ -32,13 +32,8 @@ body {
 }
 
 a {
-    /* links */
+    /* all links */
     text-decoration: none;
-    list-style-type: none
-}
-
-ul {
-    /* list */
     list-style-type: none
 }
 
@@ -54,13 +49,19 @@ h2 {
 }
 
 .links {
-    /* list & icons */
+    /* list AND icons */
     border: 0.25em solid black;
     width: 30em;
     padding: 2em
 }
 
+ul {
+    /* list: about, music, games... */
+    list-style-type: none
+}
+
 .list {
+    /* list: about, music, games... */
     text-align: center;
     font-size: 2.25em;
     font-weight: 600;
@@ -81,10 +82,8 @@ h2 {
 }
 
 .icons {
-    width: 275px;
+    width: 20em;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	align-items: center;
-	align-content: center;
 }
