@@ -23,12 +23,12 @@ body {
     
     white-space: nowrap;
 
-    -webkit-touch-callout:  none;
+    /* -webkit-touch-callout:  none;
        -webkit-user-select: none;
         -khtml-user-select: none;
           -moz-user-select: none;
            -ms-user-select: none;
-               user-select: none
+               user-select: none */
 }
 
 a {
@@ -82,8 +82,13 @@ ul {
 }
 
 .icons {
-    width: 20em;
+    width: 22em;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
+}
+
+img {
+    width: 125%;
+    height: auto;
 }
