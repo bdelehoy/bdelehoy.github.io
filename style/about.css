@@ -4,7 +4,7 @@ html {
 }
 
 body {
-    font-family: 'Catamaran', sans-serif;
+    font-family: 'Roboto', sans-serif;
     text-align: center;
     /* -webkit-touch-callout:  none;
        -webkit-user-select: none;
@@ -29,13 +29,13 @@ h1 {
 
 .content {
     margin: auto;
-    width: 50em;
+    width: 60em;
 }
 
 h4 {
     /* title */
     font-size: 2em;
-    font-weight: 800;
+    font-weight: 600;
 
     margin-top: 0;
     margin-bottom: 0;
@@ -44,28 +44,28 @@ h4 {
 h5 {
     /* years active */
     font-size: 2em;
-    font-weight: 800;
+    font-weight: 600;
     color: #717171;
 
     margin-top: 0;
-    margin-bottom: 0;
+    margin-bottom: 2%;
 }
 
 h2 {
     /* section headers */
     text-align: center;
-    font-size: 3em;
-    margin-bottom: 2%
+    font-size: 2.5em;
+    margin-bottom: 1%
 }
 
 p {
     /* description */
     font-size: 2em;
-    margin-top: 0;
+    margin-top: 2%;
     margin-bottom: 4%;
 }
 
 #back {
     text-align: center;
-    font-weight: 700;
+    font-weight: 600;
 }
