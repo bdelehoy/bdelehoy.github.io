@@ -8,11 +8,11 @@ html body {
             user-select:    none
 }
 
-@font-face {
+/* @font-face {
   font-family: 'Noto Color Emoji';
   src: URL('NotoColorEmoji-Regular.ttf') format('truetype');
 }
 
 .emoji {
   font-family: 'Noto Color Emoji';
-}
+} */
